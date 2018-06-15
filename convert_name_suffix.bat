@@ -1,7 +1,7 @@
 @echo off
 
-for /f %%i in ('dir /b/s *.csv') do (
+for /f %%i in ('dir /b/s *.txt') do (
 
-rename %%i *_f.txt
+rename %%i *.csv
 
 )
